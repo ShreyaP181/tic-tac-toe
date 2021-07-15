@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(202, 177, 177);
+    /* background: url(https://tse1.mm.bing.net/th?id=OIP.J-PEAkNXurDpJVx8QXJSYQHaEK&pid=Api&P=0&w=334&h=189); */
+    background: url(https://tse4.mm.bing.net/th?id=OIP.5RQ6PVeB8SlRfVjBzrc1RAHaFa&pid=Api&P=0&w=233&h=171);
+    /* opacity: 0.4; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* height: 1000px; */
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 10px auto;
+    background-color: rgb(51, 54, 54);
+    /* background-color: transparent; */
+}
+
+table tr td {
+    width: 90px;
+    height: 90px;
+    border: 2px solid rgb(61, 58, 58);
+    font-size: 30px;
+    text-align: center;
+}
+
+table tr td:hover {
+    background-color: rgb(92, 97, 92);
+    cursor: pointer;
+}
+
+.winner {
+    width: 280px;
+    height: 140px;
+    margin: 10px auto;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 5px white;
+}
+
+.winner span {
+    font-size: 40px;
+    display: block;
+    /* text-shadow: grey; */
+}
+
+button {
+    width: 280px;
+    height: 100px;
+    margin: 10px auto;
+    display: block;
+    color: white;
+    background-color: black;
+    font-size: 40px;
+}

@@ -4,10 +4,10 @@ var play = true;
 $('table tr td').click(function() {
     if ($(this).text() == "" && play) {
         if ((move % 2) == 1) {
-            $(this).append("X");
+            $(this).append("x");
             $(this).css('color', 'white');
         } else {
-            $(this).append("0");
+            $(this).append("o");
             $(this).css('color', 'white');
         }
         move++;

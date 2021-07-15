@@ -12,7 +12,7 @@ $('table tr td').click(function() {
         }
         move++;
         if (findwinner() != -1 && findwinner() != "") {
-            if (findwinner() == "X") {
+            if (findwinner() == "x") {
                 $('body').append('<div class="winner"><span>Winner</span>X</div>');
                 $('body').append('<button onclick="location.reload()">play again</button>');
                 $('.winner').css('background-color', 'red');
